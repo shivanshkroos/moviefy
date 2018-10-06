@@ -84,7 +84,7 @@ mark {
     font-family: Helvetica;
    /* background-color: #fff; */
     font-size: 28px; 
-    color: #fff;
+    color: rgb(100,50,200);
 } 
 
 .warn{
