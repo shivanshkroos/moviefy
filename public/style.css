@@ -66,18 +66,94 @@ mark {
 .result{
     color: red;
 } 
+ul{
+	list-style-type: none;
 
+}
+table{
+	color:rgb(236, 225, 225);
+}
+td{
+    padding:20px;
+}
+.movieName{
+	text-align: left;
 
+}
+button{
+    margin:20px;
+    outline: none;
+    background: transparent;
+    border:2px solid white;
+    padding:8px;
+}
+button a:hover{
+    text-decoration: none;
+}
+.card{
+    height: auto;
+    width:1000px;
+    background: #333;
+    box-shadow: 3px 3px 15px rgb(139, 85, 85);
+}
+.spinner {
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+    top: 48%;
+    left: 48%;	}
+
+.double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #333;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+    animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+    0%, 100% { 
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 50% { 
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+.spinner-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff6347;
+    z-index: 999999;
+    }
 .high {
-    background-color: #B9F6CA; 
     font-family: 'Poppins', sans-serif;
 } 
 
 .watch{ 
     font-family: Helvetica;
-    background-color: #e50914; 
     font-size: 24px; 
-    color: #fff;
+    color: rgb(253, 5, 5);
 } 
 
 .back{ 
@@ -93,4 +169,3 @@ mark {
    
     color: #fff;
 } 
-}
