@@ -2,7 +2,7 @@
 
 # moviefy 
 
-A Web site to instantly search and stream your favourite movie 
+A Web site to instantly search and stream your favourite movies. 
 
 **[Web Site](https://cinemafy.herokuapp.com/)**  
 
